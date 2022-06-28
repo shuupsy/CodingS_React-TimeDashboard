@@ -1,0 +1,41 @@
+.listeItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.decoration {
+    height: 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-item {
+    flex: 1 1 25%;
+    background-color: #1D204B;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+h4 {
+    color: #5746EA;
+    font-weight: normal;
+}
