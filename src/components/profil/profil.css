@@ -7,7 +7,7 @@
     color: white;
     background-color: #5746EA;
     border-radius: 15px;
-    min-height: 200px;
+    min-height: 280px;
 }
 
 #user img {
@@ -31,7 +31,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     color: #4E5186;
-    min-height: 100px;
+    min-height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -39,4 +39,12 @@
 
 #user, #nav {
     padding: 25px;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    cursor: pointer;
 }

@@ -3,6 +3,14 @@ import './profil.css'
 import avatar from './image-jeremy.png'
 
 function Profil (){
+    let changeActive = (e) => { // Ajout classe CSS
+        let tab = document.querySelectorAll("li");
+        tab.forEach(i => {
+            i.classList.remove("active")
+        })
+        e.target.classList.add("active")
+    }
+
     return (
         <div className="profil">
             <div id="user">
@@ -13,9 +21,9 @@ function Profil (){
                 <h1>Jeremy Robson</h1>
             </div>
             <ul id="nav">
-                <li>Daily</li>
-                <li>Weekly</li>
-                <li>Monthly</li>
+                <li className="btn active" onClick={(e) => {changeActive(e)}}>Daily</li>
+                <li className="btn" onClick={(e) => {changeActive(e)}}>Weekly</li>
+                <li className="btn" onClick={(e) => {changeActive(e)}}>Monthly</li>
             </ul>
         </div>
     )

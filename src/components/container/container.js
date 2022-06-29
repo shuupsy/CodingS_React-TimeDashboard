@@ -1,7 +1,7 @@
 import React from "react";
 import './container.css'
 import Profil from "../profil/profil";
-import Items from '../items/items'
+import Items from '../card/card'
 
 function Container (props) {
     return (
