@@ -1,0 +1,60 @@
+.listeItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.decoration {
+    height: 40px;
+}
+
+.card-item {
+    flex: 1 1 25%;
+    border-radius: 15px;
+    background-position: 90% -10%;
+    background-repeat: no-repeat;
+}
+
+.card-body {
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #1D204B;
+    border: 1px solid #1D204B;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Work {
+    background-color: #FF8A66;
+    background-image: url('../images/icon-work.svg');
+}
+
+.Play {
+    background-color: #56C2E6;
+    background-image: url('../images/icon-play.svg');
+}
+
+.Study {
+    background-color: #FF5E7D;
+    background-image: url('../images/icon-study.svg');
+}
+
+.Exercise {
+    background-color: #4BCF83;
+    background-image: url('../images/icon-exercise.svg');
+}
+
+.Social {
+    background-color: #7235D1;
+    background-image: url('../images/icon-social.svg');
+}
+
+.Self {
+    background-color: #F1C75B;
+    background-image: url('../images/icon-self-care.svg');
+}

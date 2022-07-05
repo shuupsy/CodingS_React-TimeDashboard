@@ -1,5 +1,5 @@
 import './items.css';
-import data from '../../data.json'
+import data from '../data.json'
 import ellipse from './svg/icon-ellipsis.svg'
 import play from './svg/icon-play.svg'
 import selfcare from './svg/icon-self-care.svg'
@@ -30,9 +30,9 @@ const Items = () => {
                 </div>
 
                 <div className='card-body'>
-                        {/* <h2>{data[i].title}</h2>
+                        <h2>{data[i].title}</h2>
                         <h3>{data[i].timeframes.daily.current}hrs</h3>
-                        <h4>Last week : {data[i].timeframes.daily.previous}</h4> */}
+                        <h4>Last week : {data[i].timeframes.daily.previous}</h4>
                 </div>
             </div>)
     }

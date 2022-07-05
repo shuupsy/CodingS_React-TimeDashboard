@@ -26,25 +26,12 @@
     margin-top: 30px;
 }
 
-#nav {
-    background-color: #1D204B;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    color: #4E5186;
-    min-height: 160px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
 
-#user, #nav {
+
+#user{
     padding: 25px;
 }
 
 .active {
     color: white;
-}
-
-.btn {
-    cursor: pointer;
 }

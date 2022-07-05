@@ -1,0 +1,25 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    padding: 100px;
+    gap: 20px;
+}
+
+#nav {
+    background-color: #1D204B;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #4E5186;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
